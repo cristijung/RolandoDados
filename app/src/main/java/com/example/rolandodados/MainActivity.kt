@@ -40,15 +40,15 @@ fun RolandoDadosApp() {
 
 @Composable
 fun DadosComBtnImagem(modifier: Modifier = Modifier) {
-    Column (
+    Column(
         modifier = modifier,
         horizontalAlignment = Alignment.CenterHorizontally
-            ) {
+    ) {
         Button(onClick = { /*TODO*/ }) {
-            Text(stringResource(R.string.roll))
-
+            Text(stringResource(R.string.rolar))
         }
     }
-}
+    }
+
 
 
